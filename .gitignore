@@ -1,0 +1,55 @@
+# 의존성
+node_modules/
+/.pnp
+.pnp.js
+
+# 테스트
+/coverage
+
+# 프로덕션 빌드
+/build
+/dist
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro 설정
+.kiro/
+.mzc/
+
+# 생성된 산출물
+backend/src/outputs/*.md
+!backend/src/outputs/.gitkeep
+
+# 기타
+*.log
+.cache
+INTEGRATION_TEST_RESULTS.md
+# secrets / results
+INTEGRATION_TEST_RESULTS.md
+*TEST_RESULT*
+*RESULTS*
+*.log

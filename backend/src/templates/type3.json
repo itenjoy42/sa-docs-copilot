@@ -1,0 +1,70 @@
+{
+  "type": "type3",
+  "name": "구현 계획서",
+  "commonSections": [
+    {
+      "title": "개요",
+      "required": true,
+      "description": "프로젝트의 목표, 범위, 주요 산출물을 간략히 설명합니다."
+    },
+    {
+      "title": "현재 상황 분석",
+      "required": true,
+      "description": "현재 시스템 환경과 구현 전 준비 상태를 분석합니다."
+    },
+    {
+      "title": "요구사항",
+      "required": true,
+      "description": "구현해야 할 기능적, 비기능적 요구사항을 명시합니다."
+    },
+    {
+      "title": "Assumptions/Risks",
+      "required": true,
+      "description": "구현 시 전제 조건과 위험 요소, 대응 방안을 명시합니다."
+    }
+  ],
+  "specificSections": [
+    {
+      "title": "구현 범위",
+      "required": true,
+      "description": "구현할 기능과 제외 사항을 명확히 정의합니다."
+    },
+    {
+      "title": "기술 스택 및 도구",
+      "required": true,
+      "description": "사용할 AWS 서비스, 개발 도구, 프레임워크를 명시합니다."
+    },
+    {
+      "title": "구현 단계",
+      "required": true,
+      "description": "단계별 구현 작업, 담당자, 예상 기간을 상세히 기술합니다."
+    },
+    {
+      "title": "테스트 계획",
+      "required": true,
+      "description": "단위 테스트, 통합 테스트, 성능 테스트 등 테스트 전략을 설명합니다."
+    },
+    {
+      "title": "배포 전략",
+      "required": true,
+      "description": "배포 방법, 롤백 계획, 모니터링 방안을 설명합니다."
+    },
+    {
+      "title": "일정 및 마일스톤",
+      "required": false,
+      "description": "주요 마일스톤과 전체 프로젝트 일정을 제시합니다."
+    },
+    {
+      "title": "리소스 계획",
+      "required": false,
+      "description": "필요한 인력, 장비, 예산 등 리소스 계획을 명시합니다."
+    }
+  ],
+  "rules": [
+    "실행 가능한 구체적인 작업 단위로 계획을 작성합니다.",
+    "각 단계의 완료 조건과 산출물을 명확히 정의합니다.",
+    "의존성과 선후 관계를 고려하여 일정을 수립합니다.",
+    "위험 요소에 대한 대응 방안을 포함합니다.",
+    "Markdown 형식으로 작성하며, 섹션은 ## (H2) 헤더를 사용합니다."
+  ]
+}

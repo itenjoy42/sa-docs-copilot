@@ -1,0 +1,60 @@
+{
+  "type": "type1",
+  "name": "아키텍처 설계서",
+  "commonSections": [
+    {
+      "title": "개요",
+      "required": true,
+      "description": "프로젝트의 목적, 범위, 주요 목표를 간략히 설명합니다."
+    },
+    {
+      "title": "현재 상황 분석",
+      "required": true,
+      "description": "현재 시스템 또는 비즈니스 환경의 문제점과 개선이 필요한 부분을 분석합니다."
+    },
+    {
+      "title": "요구사항",
+      "required": true,
+      "description": "기능적 요구사항과 비기능적 요구사항(성능, 보안, 확장성 등)을 명시합니다."
+    },
+    {
+      "title": "Assumptions/Risks",
+      "required": true,
+      "description": "프로젝트 진행 시 가정사항과 잠재적 위험 요소를 식별합니다."
+    }
+  ],
+  "specificSections": [
+    {
+      "title": "아키텍처 설계",
+      "required": true,
+      "description": "시스템의 전체 구조, 주요 컴포넌트, 데이터 흐름을 설명합니다. AWS 서비스 구성도를 포함합니다."
+    },
+    {
+      "title": "기술 스택",
+      "required": true,
+      "description": "사용할 AWS 서비스, 프로그래밍 언어, 프레임워크, 데이터베이스 등을 명시합니다."
+    },
+    {
+      "title": "보안 설계",
+      "required": true,
+      "description": "인증/인가, 데이터 암호화, 네트워크 보안, 규정 준수 등 보안 관련 설계를 설명합니다."
+    },
+    {
+      "title": "확장성 및 성능",
+      "required": false,
+      "description": "Auto Scaling, Load Balancing, 캐싱 전략 등 확장성과 성능 최적화 방안을 설명합니다."
+    },
+    {
+      "title": "비용 예측",
+      "required": false,
+      "description": "예상 AWS 비용과 비용 최적화 방안을 제시합니다."
+    }
+  ],
+  "rules": [
+    "AWS Well-Architected Framework의 5가지 기둥(운영 우수성, 보안, 안정성, 성능 효율성, 비용 최적화)을 고려하여 작성합니다.",
+    "기술적인 용어는 명확하게 정의하고, 필요시 다이어그램을 포함합니다.",
+    "각 AWS 서비스 선택의 근거를 명확히 설명합니다.",
+    "실제 구현 가능한 현실적인 설계를 제시합니다.",
+    "Markdown 형식으로 작성하며, 섹션은 ## (H2) 헤더를 사용합니다."
+  ]
+}
